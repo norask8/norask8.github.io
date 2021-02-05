@@ -1,0 +1,29 @@
+
+#svg_10 ,#scg_17,#svg_18,#svg_19,#svg_22,#svg_23,#svg_24,#svg_25,#svg_28,#svg_29,#svg_33{
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 10s linear forwards;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.pic text{
+  display:none;
+}
+
+.svg{
+  margin:auto;
+  display:block;
+}
+
+.middle video{
+  display:block;
+  margin:auto;
+}
+.middle p{
+  text-align: center;
+}
