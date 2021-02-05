@@ -6,6 +6,9 @@
   <link rel="stylesheet" type="text/css" href="beta.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
 </head>
 <body>
   <div class = "top">
@@ -20,6 +23,46 @@
       最後のひと踏ん張り、頑張って！！<br>
     </p>
   </div>
+  <div class = "blank"></div>
+  <div class = "btm">
+    <p>試験が終わったらやろう！</p>
+    <p>↓</p>
+    <p>↓</p>
+    <p>↓</p>
+    <ul class = "slides">
+        <li class = "slide">
+          <a href = "https://hamakore.yokohama/coaska-bayside-stores-open-info/">ベイサイドコースカに行く</a>
+          <img src = "photo/photo1.jpg">
+        </li>
+        <li class = "slide">
+          <a href = "http://www.motherfarm.co.jp/">漫才をつくる</a>
+          <img src = "photo/photo3.jpg">
+        </li>
+        <li class = "slide">
+          <a href = "http://www.motherfarm.co.jp/">マザー牧場に行く</a>
+          <img src = "photo/photo2.jpg">
+        </li>
+        <li class = "slide">
+          <a href = "https://vokka.jp/11707">佐々木に大量の唐揚げを食べさせる</a>
+          <img src = "photo/photo4.png">
+        </li>
+        <li class = "slide"><img src = "photo/photo5.jpg"></li>
+        <li class = "slide"><img src = "photo/photo6.jpg"></li>
+      </ul>
+  </div>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.slides').slick({
+          accessibility:true,
+          autoplay:true,
+          autoplaySpeed:2000,
+          dots:true,
+          fade:true,
+        });
+      });
+    </script>
+
   <script src="anime.min.js"></script>
   <script src="script.js"></script>
   </body>

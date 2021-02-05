@@ -27,3 +27,18 @@
 .middle p{
   text-align: center;
 }
+.blank{
+  height:150px;
+}
+.btm img{
+  width:40%;
+  margin:auto;
+}
+.btm{
+  font-family: serif;
+  text-align: center;
+  margin:auto;
+}
+.btm p {
+  font-size: 25px;
+}
